@@ -1,11 +1,12 @@
 function MakeFigure2a(varargin) 
-
+    clear all;
+    
     addpath(genpath([pwd '/fgtools/']));
     cDir = ''; 
     inpath=[cDir 'data/']; 
     outpath=[cDir ''];
 
-    clear all;
+    
     % Example PSTH traces for social and object
     load([inpath 'PSTH_SocObj_Traces.mat'])
    
